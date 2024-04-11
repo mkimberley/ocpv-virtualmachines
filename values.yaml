@@ -14,5 +14,5 @@ vms:
     domain: centos9-vm
     root_disk: rootdisk
     cloud_init_disk: cloudinitdisk
-    storage_import_endpoint: https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-20220914.0.x86_64.qcow2
+    storage_import_endpoint: https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-20230704.1.x86_64.qcow2
     storage_class_name: ocs-storagecluster-ceph-rbd
