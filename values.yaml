@@ -1,0 +1,18 @@
+namespace: vms
+
+vms:
+  - name: centos9-vm
+    app: base
+    data_source_namespace: default
+    memory: 2Gi
+    cpu_cores: 2
+    disk_size: 30Gi
+    os: centos-stream9
+    workload: server
+    flavor: medium
+    size: medium
+    domain: centos9-vm
+    root_disk: rootdisk
+    cloud_init_disk: cloudinitdisk
+    storage_import_endpoint: CentOS-Stream-GenericCloud-9-latest.x86_64.qcow2
+    storage_class_name: ocs-storagecluster-ceph-rbd
