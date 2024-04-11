@@ -8,6 +8,7 @@ metadata:
     app: containerized-data-importer
   annotations:
     cdi.kubevirt.io/storage.import.endpoint: {{ .storage_import_endpoint }}
+    argocd.argoproj.io/sync-wave: "2"
 spec:
   volumeMode: Block
   storageClassName: {{ .storage_class_name }}
