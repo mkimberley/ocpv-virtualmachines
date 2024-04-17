@@ -1,7 +1,8 @@
+
 {{- range .Values.vms }}
 apiVersion: v1
 kind: PersistentVolumeClaim
-namespace: {{ $.Values.namspace}}
+namespace: {{ $.Values.namespace}}
 metadata:
   name: {{ .name }}-pvc
   labels:
