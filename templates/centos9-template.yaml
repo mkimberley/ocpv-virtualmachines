@@ -26,7 +26,7 @@ metadata:
       /objects[0].spec.template.spec.volumes
       /objects[0].spec.template.spec.networks
     template.kubevirt.io/images: |
-      https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-20220914.0.x86_64.qcow2
+      https://cloud.centos.org/centos/9-stream/x86_64/images/CentOS-Stream-GenericCloud-9-20231002.0.x86_64.qcow2
     template.kubevirt.io/provider: Red Hat
     template.kubevirt.io/provider-support-level: Community
     template.kubevirt.io/provider-url: https://www.centos.org
